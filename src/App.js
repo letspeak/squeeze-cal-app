@@ -8,9 +8,9 @@ const C = {
 
 // ── Pre-filled PCT data as of March 30, 2026 (sourced from Fintel / Benzinga / Investing.com) ──
 const PCT_DATA = {
-  ticker:        "PCT",
-  sharesShort:   "44.42",   // M — Benzinga (latest FINRA report, ~early Mar 2026)
-  floatShares:   "108",     // M — derived: 44.42M / 41.13% SI%float (Benzinga)
+  ticker:        "Pre-flight",
+  sharesShort:   "21.39",   // M — Benzinga (latest FINRA report, ~early Mar 2026)
+  floatShares:   "30.46",     // M — derived: 44.42M / 41.13% SI%float (Benzinga)
   avgDailyVol:   "3.5",     // M — blended FINRA (2.94M) & Benzinga (5.25M) estimates
   currentVol:    "4.8",     // M — estimated pivot-bottom buy-signal day (StockInvest)
   currentPrice:  "5.14",    // $ — Investing.com confirmed close Mar 30, 2026
@@ -500,7 +500,7 @@ export default function SqueezeCalc() {
 
             <div style={{ textAlign: "center", color: C.dim, fontSize: 9, lineHeight: 1.7 }}>
               ⚠ NOT FINANCIAL ADVICE · FOR EDUCATIONAL USE ONLY<br />
-              Data sourced from Fintel.io, Benzinga, Investing.com, FINRA, Short Interest Tracker
+              Something good on the way - stay tuned
             </div>
           </div>
         </div>
